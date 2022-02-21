@@ -52,6 +52,17 @@ justify-content: space-between;
 .nav-list {
     display: flex;
     align-items: center;
+    
+}
+
+.header-icon {
+margin-right: 10px;  
+min-width: 100%;  
+}
+
+.header-icon:hover,
+.header-icon:focus {
+    fill: currentColor;
 }
 
 .primary-logo {
@@ -84,6 +95,7 @@ padding: 32px 0;
 }
 
 
+
 .head-item:not(:last-child) {
     margin-right: 50px;
 }
@@ -92,6 +104,8 @@ padding: 32px 0;
 .contacts-header-list :focus { color: var(--accent-color); }
 
 .contacts-header {
+    display: flex;
+    align-items: center;
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
@@ -107,11 +121,13 @@ margin-right: 50px;
 }
 
 .hero {
-    background-color: #2F303A;
+    background-color: #C4C4C4;
     align-content: center;
     text-align: center;
     padding-bottom: 200px;
     padding-top: 200px;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero.jpg);
+    background-size: cover;
 }
 
 .hero-title {
@@ -227,6 +243,15 @@ margin-bottom: 50px;
 
 .team-list-item:nth-child(4n) {
     margin-right: 0;
+}
+
+.client-title {
+    font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+letter-spacing: 0.03em;
+margin-bottom: 50px;
 }
 
 .studio-cards {
