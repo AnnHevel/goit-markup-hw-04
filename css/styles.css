@@ -173,6 +173,8 @@ padding: 10px 32px;
 .advantages-list {
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
 .advantages {
@@ -203,11 +205,11 @@ margin-bottom: 10px;
 }
 
 .advantages-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 270px;
     height: 120px;
-    display: flex;
-    align-content: center;
-    justify-content: center;
     background-color: #F5F4FA;
     margin-bottom: 30px;
     border-radius: 4px;}
@@ -482,6 +484,7 @@ text-align: center;
 letter-spacing: 0.03em;
 color: var(--title-text-color);
 padding: 6px 22px;
+cursor: pointer;
 }
 
 .filter {
