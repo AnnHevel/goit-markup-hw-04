@@ -55,14 +55,6 @@ justify-content: space-between;
     
 }
 
-.header-icon {
-margin-right: 10px;   
-}
-
-.contacts-header:hover,
-.contacts-header:focus {
-    fill: currentColor;
-}
 
 .primary-logo {
     font-family: Raleway, sans-serif;
@@ -99,9 +91,24 @@ padding: 32px 0;
     margin-right: 50px;
 }
 
-.contacts-header-list :hover, 
-.contacts-header-list :focus { color: var(--accent-color); }
+.head-link:hover,
+.head-link:focus {
+    color: var(--accent-color);
+}
 
+
+.header-icon {
+    margin-right: 10px; 
+    fill: currentColor;
+    }
+    
+   
+
+.contacts-header-list :hover, 
+.contacts-header-list :focus
+{ color: var(--accent-color); }
+
+ 
 .contacts-header {
     display: flex;
     align-items: center;
@@ -333,19 +340,21 @@ margin-bottom: 50px;
     justify-content: center;
 }
 .client-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border: 1px solid #AFB1B8;
     box-sizing: border-box;
     border-radius: 4px;
-    padding: 16px 32px;
-    
+    width: 170px;
+    height: 92px;
 }
 
 .client-item {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 170px;
-    height: 92px; 
+    
 }
 .client-item:not(:last-child) 
 {
